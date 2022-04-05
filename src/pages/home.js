@@ -46,7 +46,7 @@ function Home() {
             <img className="rounded-full" src={profile} alt="" width={140} />
           </div>
           <div className="flex flex-row justify-between mt-6">
-            <a href="" className="">
+            <a href="https://instagram.com/prakhar_5447" className="">
               <img
                 src={insta_logo}
                 alt=""
@@ -55,7 +55,7 @@ function Home() {
                 onMouseLeave={h1}
               />
             </a>
-            <a href="" className="mt-1">
+            <a href="https://twitter.com/prakhar_5447" className="mt-1">
               <img
                 src={twitter_logo}
                 alt=""
@@ -64,7 +64,7 @@ function Home() {
                 onMouseLeave={h2}
               />
             </a>
-            <a href="" className="">
+            <a href="https://www.linkedin.com/in/prakhar-sahu-4519b8206" className="">
               <img
                 src={linkedin_logo}
                 alt=""
@@ -73,7 +73,7 @@ function Home() {
                 onMouseLeave={h3}
               />
             </a>
-            <a href="" className="">
+            <a href="https://github.com/prakhar-5447" className="">
               <img
                 src={github_logo}
                 alt=""
