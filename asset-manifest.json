@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a56bcd06.css",
+    "main.js": "/portfolio/static/js/main.fab1f891.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PRAKHAR.jpg": "/portfolio/static/media/PRAKHAR.612d62d81f75ee0604b8.jpg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.5bd2feb895c71a42494f.jpg",
+    "static/media/insta.png": "/portfolio/static/media/insta.e96863e01c032edf0017.png",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.cf598e74b5c7e06c64f3.png",
+    "index.html": "/portfolio/index.html",
+    "main.a56bcd06.css.map": "/portfolio/static/css/main.a56bcd06.css.map",
+    "main.fab1f891.js.map": "/portfolio/static/js/main.fab1f891.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a56bcd06.css",
+    "static/js/main.fab1f891.js"
+  ]
+}
