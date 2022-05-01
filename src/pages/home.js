@@ -89,7 +89,7 @@ function Home() {
             </div>
           </div>
           <div className="text-2xl text-sm text-white leading-5">
-            <p className="px-5 py-2 rounded-lg desc">
+            <p className="px-5 text-base py-2 rounded-lg desc">
               BTech CSE'24 student from Shri Shankaracharya Technical Campus,
               Bhilai
             </p>

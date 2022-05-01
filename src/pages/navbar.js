@@ -7,7 +7,7 @@ function Navbar() {
     { name: `Home`, path: `/` },
     { name: `Education`, path: `/Education` },
     { name: `Skills`, path: `/Skills` },
-    { name: `Work`, path: `/Work` }
+    { name: `Project`, path: `/Project` }
   ];
   return (
     <div className="py-6 text-xl mb-10">
