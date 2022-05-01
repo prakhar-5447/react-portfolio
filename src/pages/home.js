@@ -13,34 +13,9 @@ function Home() {
   const [twitter, settwitter] = useState(false);
   const [github, setgithub] = useState(false);
   const [linkedin, setlinkedin] = useState(false);
-  const s1 = (e) => {
-    setinsta(true);
-  };
-  const h1 = (e) => {
-    setinsta(false);
-  };
-  const s2 = (e) => {
-    settwitter(true);
-  };
-  const h2 = (e) => {
-    settwitter(false);
-  };
-  const s3 = (e) => {
-    setlinkedin(true);
-  };
-  const h3 = (e) => {
-    setlinkedin(false);
-  };
-  const s4 = (e) => {
-    setgithub(true);
-  };
-  const h4 = (e) => {
-    setgithub(false);
-  };
-
   return (
     <div className="container mx-auto w-2/5 card bg-white">
-      <div className="flex mx-10 justify-between pl-20 pr-10 py-10">
+      <div className="flex mx-10 justify-between px-20 py-20">
         <div className="flex-col my-3 w-1/4">
           <div className="">
             <img className="rounded-full" src={profile} alt="" width={140} />
@@ -51,8 +26,8 @@ function Home() {
                 src={insta_logo}
                 alt=""
                 width={20}
-                onMouseEnter={s1}
-                onMouseLeave={h1}
+                onMouseEnter={()=>{setinsta(true)}}
+                onMouseLeave={()=>{setinsta(false)}}
               />
             </a>
             <a href="https://twitter.com/prakhar_5447" className="mt-1">
@@ -60,8 +35,8 @@ function Home() {
                 src={twitter_logo}
                 alt=""
                 width={20}
-                onMouseEnter={s2}
-                onMouseLeave={h2}
+                onMouseEnter={()=>{settwitter(true)}}
+                onMouseLeave={()=>{settwitter(false)}}
               />
             </a>
             <a href="https://www.linkedin.com/in/prakhar-sahu-4519b8206" className="">
@@ -69,8 +44,8 @@ function Home() {
                 src={linkedin_logo}
                 alt=""
                 width={20}
-                onMouseEnter={s3}
-                onMouseLeave={h3}
+                onMouseEnter={()=>{setlinkedin(true)}}
+                onMouseLeave={()=>{setlinkedin(false)}}
               />
             </a>
             <a href="https://github.com/prakhar-5447" className="">
@@ -78,24 +53,24 @@ function Home() {
                 src={github_logo}
                 alt=""
                 width={20}
-                onMouseEnter={s4}
-                onMouseLeave={h4}
+                onMouseEnter={()=>{setgithub(true)}}
+                onMouseLeave={()=>{setgithub(false)}}
               />
             </a>
           </div>
           <div className="flex font-bold justify-center mt-6">
-            <p className="username">
+            <div className="username">
               {insta && <h2 className="justify-center">prakhar_5447</h2>}
               {twitter && <h2 className="justify-center">prakhar_5447</h2>}
               {github && <h2 className="justify-center">prakhar-5447</h2>}
               {linkedin && <h2 className="justify-center">PRAKHAR SAHU</h2>}
-            </p>
+            </div>
           </div>
         </div>
-        <div className="flex w-3/4 text-left flex-col my-5 ml-10 justify-around">
+        <div className="flex w-3/4 text-left flex-col my-5 ml-20 justify-around">
           <div className="justify-around">
             <div className="font-bold text-2xl">PRAKHAR SAHU</div>
-            <div className="flex ml-1 text-xl">
+            <div className="flex ml-1 mt-1 text-xl">
               <p className="mr-2">I'm a</p>
               <TypeWriterEffect
                 textStyle={{
