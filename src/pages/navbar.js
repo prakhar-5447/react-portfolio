@@ -1,18 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/navbar.css";
 
-function navbar() {
+function Navbar() {
+  const menuItems = [
+    { name: `Home`, path: `/` },
+    { name: `Education`, path: `/Education` },
+    { name: `Skills`, path: `/Skills` },
+    { name: `Work`, path: `/Work` }
+  ];
   return (
     <div className="py-6 text-xl mb-10">
       <ul className="list-none flex text-white justify-center">
-        <li className="mx-12"><a href="/" className="">HOME</a></li>
-        <li className="mx-12"><a href="/" className="">EDUCATION</a></li>
-        <li className="mx-12"><a href="/" className="">SKILLS</a></li>
-        <li className="mx-12"><a href="/" className="">WORK</a></li>
-        <li className="mx-12"><a href="/" className="">BLOGS</a></li>
+        {menuItems.map(e => <li key={e.name} className="mx-12"><Link to={e.path} className="">{e.name}</Link></li>)}
       </ul>
     </div>
   );
 }
 
-export default navbar;
+export default Navbar;

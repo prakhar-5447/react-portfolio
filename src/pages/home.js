@@ -26,8 +26,8 @@ function Home() {
                 src={insta_logo}
                 alt=""
                 width={20}
-                onMouseEnter={()=>{setinsta(true)}}
-                onMouseLeave={()=>{setinsta(false)}}
+                onMouseEnter={() => { setinsta(true) }}
+                onMouseLeave={() => { setinsta(false) }}
               />
             </a>
             <a href="https://twitter.com/prakhar_5447" className="mt-1">
@@ -35,8 +35,8 @@ function Home() {
                 src={twitter_logo}
                 alt=""
                 width={20}
-                onMouseEnter={()=>{settwitter(true)}}
-                onMouseLeave={()=>{settwitter(false)}}
+                onMouseEnter={() => { settwitter(true) }}
+                onMouseLeave={() => { settwitter(false) }}
               />
             </a>
             <a href="https://www.linkedin.com/in/prakhar-sahu-4519b8206" className="">
@@ -44,8 +44,8 @@ function Home() {
                 src={linkedin_logo}
                 alt=""
                 width={20}
-                onMouseEnter={()=>{setlinkedin(true)}}
-                onMouseLeave={()=>{setlinkedin(false)}}
+                onMouseEnter={() => { setlinkedin(true) }}
+                onMouseLeave={() => { setlinkedin(false) }}
               />
             </a>
             <a href="https://github.com/prakhar-5447" className="">
@@ -53,8 +53,8 @@ function Home() {
                 src={github_logo}
                 alt=""
                 width={20}
-                onMouseEnter={()=>{setgithub(true)}}
-                onMouseLeave={()=>{setgithub(false)}}
+                onMouseEnter={() => { setgithub(true) }}
+                onMouseLeave={() => { setgithub(false) }}
               />
             </a>
           </div>

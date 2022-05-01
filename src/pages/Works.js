@@ -1,6 +1,6 @@
 import React from "react";
 
-function work() {
+function Works() {
   return (
     <div>
       hello lorem100 sdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdf Lorem ipsum
@@ -9,4 +9,4 @@ function work() {
   );
 }
 
-export default work;
+export default Works;
