@@ -14,7 +14,7 @@ function Home() {
   const [github, setgithub] = useState(false);
   const [linkedin, setlinkedin] = useState(false);
   return (
-    <div className="container mx-auto w-2/5 card bg-white">
+    <div className="container mx-auto w-2/5 rounded-3xl text-center card bg-white">
       <div className="flex mx-10 justify-between px-20 py-20">
         <div className="flex-col my-3 w-1/4">
           <div className="">
