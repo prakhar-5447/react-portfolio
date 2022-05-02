@@ -5,22 +5,23 @@ function Project() {
   let projects = [
     {
       title: "Address book",
-      desc: "This is address book",
+      desc: "This is address book which allows the user to manage a list of contact information",
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
       link: "https://github.com/prakhar-5447",
-      host: "https://prakhar-5447.github.io/portfolio"
+      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg"
     },
     {
       title: "firstmy book",
-      desc: "this is address book",
+      desc: "this is address book which allows the user to manage a list of contact information",
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
       link: "https://github.com/prakhar-5447",
-      host: "https://prakhar-5447.github.io/portfolio"
+      host: "https://prakhar-5447.github.io/portfolio",
+      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg"
     }
   ]
 
   return (
-    <div className="container flex m-auto justify-evenly">
+    <div className="container flex m-auto flex-wrap justify-evenly">
       {projects.map(e => <Card key={e.title} project={e} />)}
     </div>
   );

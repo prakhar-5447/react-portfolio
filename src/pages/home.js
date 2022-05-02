@@ -1,11 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import insta_logo from "../images/insta.png";
-import twitter_logo from "../images/twitter.png";
-import linkedin_logo from "../images/linkedin.png";
-import github_logo from "../images/github.png";
-import profile from "../images/PRAKHAR.jpg";
+import {insta_logo,linkedin_logo,twitter_logo,github_logo,profile} from "../images/images.js";
+
 import "../style/home.css";
 
 function Home() {
@@ -59,7 +56,7 @@ function Home() {
             </a>
           </div>
           <div className="flex font-bold justify-center mt-6">
-            <div className="username">
+            <div className="username text-xs">
               {insta && <h2 className="justify-center">prakhar_5447</h2>}
               {twitter && <h2 className="justify-center">prakhar_5447</h2>}
               {github && <h2 className="justify-center">prakhar-5447</h2>}
@@ -75,8 +72,8 @@ function Home() {
               <TypeWriterEffect
                 textStyle={{
                   fontFamily: "",
-                  color: "#34ebeb",
-                  fontWeight: 150,
+                  color: "red",
+                  fontWeight: 3000,
                   fontSize: "1.3rem",
                 }}
                 startDelay={2000}
@@ -88,8 +85,8 @@ function Home() {
               />
             </div>
           </div>
-          <div className="text-2xl text-sm text-white leading-5">
-            <p className="px-5 text-base py-2 rounded-lg desc">
+          <div className="text-sm text-white leading-5">
+            <p className="pl-5 pr-3 text-slate-100 py-2 rounded-lg desc">
               BTech CSE'24 student from Shri Shankaracharya Technical Campus,
               Bhilai
             </p>
