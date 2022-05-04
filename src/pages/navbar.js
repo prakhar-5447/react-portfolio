@@ -9,7 +9,7 @@ function Navbar() {
     { name: `PROJECT`, path: `/Project` }
   ];
   return (
-    <div className="py-6 mb-10">
+    <div className="py-6 mb-6">
       <ul className="list-none flex text-white justify-center">
         {menuItems.map(e => <li key={e.name} className="mx-12"><Link to={e.path} className="">{e.name}</Link></li>)}
       </ul>

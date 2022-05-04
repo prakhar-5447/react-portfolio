@@ -8,7 +8,9 @@ function Project() {
       desc: "This is address book which allows the user to manage a list of contact information",
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
       link: "https://github.com/prakhar-5447",
-      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg"
+      host: "",
+      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      tag: ["#PERSONAL"],
     },
     {
       title: "firstmy book",
@@ -16,7 +18,8 @@ function Project() {
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
       link: "https://github.com/prakhar-5447",
       host: "https://prakhar-5447.github.io/portfolio",
-      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg"
+      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      tag: ["#TEAM"],
     }
   ]
 

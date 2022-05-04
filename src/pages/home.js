@@ -88,7 +88,7 @@ function Home() {
           </div>
         </div>
         <div className="text-sm text-white leading-5">
-          <p className="right_content_para p-5 text-slate-100 text-center rounded-lg desc">
+          <p className="right_content_para p-5 text-slate-100 text-center rounded-lg">
             BTech CSE'24 student from Shri Shankaracharya Technical Campus,
             Bhilai
           </p>

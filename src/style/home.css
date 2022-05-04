@@ -15,7 +15,7 @@
   height: 20px;
 }
 
-.desc {
+.right_content_para {
   background: rgba(100, 96, 96, 0.377);
 }
 
@@ -96,7 +96,7 @@
     justify-content: center !important;
   }
   .right_content_para {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
 }
 
@@ -165,7 +165,7 @@
 
 @media screen and (max-width: 480px) {
   .card {
-    padding: 10px !important;
+    padding: 12px !important;
     width: 12rem !important;
   }
   .react-typewriter-text {
@@ -183,7 +183,7 @@
   .right_content_effect {
     color: white;
   }
-  .left_content_logo{
+  .left_content_logo {
     filter: invert(1);
   }
 }
