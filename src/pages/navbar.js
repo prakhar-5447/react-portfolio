@@ -4,9 +4,9 @@ import "../style/navbar.css";
 
 function Navbar() {
   const menuItems = [
-    { name: `HOME`, path: `/` },
-    { name: `SKILLS`, path: `/Skills` },
-    { name: `PROJECT`, path: `/Project` }
+    { name: `HOME`, path: `/porfolio` },
+    { name: `SKILLS`, path: `/skills` },
+    { name: `PROJECT`, path: `/project` }
   ];
   return (
     <div className="py-6 mb-6">
