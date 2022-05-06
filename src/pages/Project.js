@@ -4,22 +4,31 @@ import Card from "./Card"
 function Project() {
   let projects = [
     {
-      title: "Address book",
+      title: "Address Book",
       desc: "This is address book which allows the user to manage a list of contact information",
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
-      link: "https://github.com/prakhar-5447",
+      link: "https://github.com/prakhar-5447/Address-Book",
       host: "",
-      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      tag: ["#PERSONAL","#WEB"],
+    },
+    {
+      title: "DISCORD BOT",
+      desc: "Server Moderation bot help to make server secure and away from threats",
+      tech: ["TYPESCRIPT"],
+      link: "https://github.com/prakhar-5447/PROJECT-C",
+      host: "",
+      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
       tag: ["#PERSONAL"],
     },
     {
-      title: "firstmy book",
-      desc: "this is address book which allows the user to manage a list of contact information",
-      tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
-      link: "https://github.com/prakhar-5447",
-      host: "https://prakhar-5447.github.io/portfolio",
-      image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
-      tag: ["#TEAM"],
+      title: "Firstmy",
+      desc: "FirstMy is dedicated to preventing child abuse by strengthening, equipping, and restoring children and families in crisis. One Life at a Time.",
+      tech: ["HTML", "CSS", "JAVASCRIPT", "MERN"],
+      link: "https://github.com/prakhar-5447/firstmy",
+      host: "",
+      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      tag: ["#TEAM","#WEB"],
     }
   ]
 

@@ -10,7 +10,7 @@ function Card(props) {
             <div className="flex flex-col text-center h-auto anime justify-between m-10 rounded-lg bg-black ring-1 ring-slate-900/5 shadow-lg space-y-3">
                 <div className='w-60'>
                     <div className="flex justify-center">
-                        <img className='rounded-t-lg' src={image} alt="no_image" width="100%" />
+                        {image && <img className='rounded-t-lg' src={image} alt="no_image" width="100%" />}
                     </div>
                     <div className="flex flex-col px-4 text-white mt-5">
                         <div className='m-auto'>

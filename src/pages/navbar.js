@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../style/navbar.css";
 
 function Navbar() {
   const menuItems = [
-    { name: `HOME`, path: `/porfolio` },
-    { name: `SKILLS`, path: `/skills` },
+    { name: `HOME`, path: `/portfolio` },
     { name: `PROJECT`, path: `/project` }
   ];
   return (

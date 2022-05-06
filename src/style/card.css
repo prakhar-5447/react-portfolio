@@ -11,20 +11,6 @@
   }
 }
 
-.tech-card {
-  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.281);
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.116);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(35, 38, 41, 0.5);
-  border-right: 1px solid rgba(35, 38, 41, 0.5);
-}
-
-.tech-list {
-  height: 60vh;
-}
-
 .hover-delay {
   background-color: rgb(255, 255, 255);
   transition: all 0.4s ease;
@@ -32,8 +18,4 @@
 
 .hover-delay:hover {
   background-color: rgb(14, 165, 233);
-}
-
-.tech-title {
-  color: rgb(148, 144, 144);
 }
