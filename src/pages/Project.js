@@ -1,5 +1,12 @@
 import React from "react";
 import Card from "./Card";
+import {
+  ToDo,
+  Firstmy,
+  AddressBook,
+  COE_Bot,
+  JuicyNYummy,
+} from "../images/images.js";
 
 function Project() {
   let projects = [
@@ -9,7 +16,7 @@ function Project() {
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
       link: "https://github.com/prakhar-5447/Address-Book",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: AddressBook,
       tag: ["#PERSONAL", "#WEB"],
     },
     {
@@ -18,7 +25,7 @@ function Project() {
       tech: ["TYPESCRIPT"],
       link: "https://github.com/prakhar-5447/PROJECT-C",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: Firstmy,
       tag: ["#PERSONAL"],
     },
     {
@@ -27,7 +34,7 @@ function Project() {
       tech: ["HTML", "CSS", "TYPESCRIPT", "ANGULAR"],
       link: "https://github.com/prakhar-5447/angular-project",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: ToDo,
       tag: ["#WEB"],
     },
     {
@@ -36,7 +43,7 @@ function Project() {
       tech: ["HTML", "CSS", "JAVASCRIPT", "MERN"],
       link: "https://github.com/prakhar-5447/firstmy",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: COE_Bot,
       tag: ["#TEAM", "#WEB"],
     },
     {
@@ -45,7 +52,7 @@ function Project() {
       tech: ["HTML", "CSS", "TYPESCRIPT", "MEAN"],
       link: "https://github.com/prakhar-5447/Juicy-N-Yummy",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: JuicyNYummy,
       tag: ["#TEAM", "#WEB"],
     },
   ];
